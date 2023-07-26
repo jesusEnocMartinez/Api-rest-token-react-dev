@@ -1,4 +1,8 @@
 package com.softpro.mx.service;
 
-public class UsuariosService {
+import com.softpro.mx.dto.MensualidadesDto;
+
+public interface UsuariosService {
+
+    public MensualidadesDto getMensualidadesByUsuarioId(Integer idUsuario);
 }
